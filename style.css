@@ -81,6 +81,62 @@ color: black;
 .card-foreground button {
     margin-left: 60%;
 }
+
+.mai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .mai .box {
+     margin: 30px;
+ }
+.ma-1 img{
+     padding-left: 40%;
+ }
+ .ma-2 img{
+    padding-left: 40%;
+}
+.ma-3 img{
+    padding-left: 40%;
+}
+.ma-4 img{
+    padding-left: 30%;
+}
+.ma-5 img{
+    padding-left: 30%;
+}
+
+.shop{
+   padding-left: 48%;
+   padding-bottom: 6%;
+}
+.shop img{
+    padding-left: 30px;
+}
+
+.md {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.mdall img{
+    padding-left: 20px;
+}
+.mdall p{
+    padding-left: 20px;
+}
+
+.md h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.md a{
+    padding-left: 20px;
+}
 /* footer */
 
 .cards {
