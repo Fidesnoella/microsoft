@@ -136,6 +136,45 @@ color: black;
 }
 .md a{
     padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.md a:hover{
+    text-decoration: underline;
+}
+
+.buss{
+    padding-left: 60px;
+    font-weight: bold; 
+}
+.comp img{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.shopc{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.shopc h2{
+    font-weight: bold;
+}
+.shopc button{
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shoe .shoe1 img{
+   width: 95%;
+   padding-left: 4.5%;
+   padding-bottom: 10%;
 }
 /* footer */
 
