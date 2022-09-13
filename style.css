@@ -19,7 +19,7 @@ body {
 }
 
 .link ul {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -67,51 +67,6 @@ body {
   display: none;
 }
 
-@media (max-width: 1000px) {
-  .nav {
-    padding-left: 2%;
-  }
-  .link li a {
-    margin: 8px;
-    font-size: 12px;
-  }
-
-  .link-1 li a {
-    font-size: 12px;
-  }
-}
-@media (max-width: 860px) {
-  .checkbtn {
-    display: block;
-  }
-  .nav .link ul {
-     width: 100%;
-     position: absolute;
-     background-color: #f2f2f2;
-     top: 75px;
-     right: 0;
-     z-index: 2;
-  }
-
-  .link ul{
-      display: block;
-      margin-top: 10px;
-      margin-bottom: 10px ;
-      margin-right: 25px;
-  }
-
-  .limk img {
-     margin-top: 2px;
-  }
-
-  #menuList{
-    overflow: hidden;
-    transition: 0.5s;
-  }
-  .alert-content {
-    font-size: 13px;
-  }
-}
 .alert-content {
   min-height: 3.625rem;
   display: flex;
@@ -151,49 +106,6 @@ body {
   margin-left: 60%;
 }
 
-@media (max-width: 900px) {
-  .card-inner .card-item img {
-    width: 100%;
-  }
-  .card-foreground {
-    position: relative;
-    width: 80%;
-  }
-
-  .card-foreground h1{
-    padding-left: 20%;
-  }
-  .card-foreground p{
-    padding-left: 20%;
-  }
-  .card-foreground .btn {
-    margin-left: 30%;
-    width: 30%;
-    height: 30px;
-    font-size: 13px;
-  }
-  .card-foreground a{
-    height: 30px;
-    font-size: 12px;
-  }
-
-}
-
-@media (max-width: 465px) {
-      .card-foreground .btn {
-        margin-left: 10%;
-        width: 40%;
-        height: 25px;
-        font-size: 10px;
-      }
-      .card-foreground a{
-        height: 20px;
-        font-size: 8px;
-      }
-    
-}
-
- 
 .mai {
   display: flex;
   justify-content: center;
@@ -268,8 +180,9 @@ body {
 }
 .shopc {
   position: absolute;
-  margin-top: 18%;
-  margin-left: 10%;
+  top: 250%;
+  padding-left: 10%;
+  font-weight: 400;
 }
 .shopc h2 {
   font-weight: bold;
@@ -284,6 +197,14 @@ body {
   cursor: pointer;
 }
 
+.shoe {
+  display: inline-flex;
+  width: 100%;
+}
+
+.shoe1 {
+  width: 100%;
+}
 .shoe .shoe1 img {
   width: 97%;
   padding-left: 4.5%;
@@ -319,6 +240,7 @@ body {
 .cards {
   font-size: 15px;
   display: flex;
+  
   padding-left: 8rem;
 }
 .cards .card1 {
@@ -377,4 +299,112 @@ footer {
 
 .footer_row .fw-2 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    padding-left: 2%;
+  }
+  .link li a {
+    margin: 8px;
+    font-size: 12px;
+  }
+
+  .link-1 li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 950px) {
+  .card-inner .card-item img {
+    width: 100%;
+  }
+  .card-foreground {
+    position: relative;
+    width: 80%;
+  }
+
+  .card-foreground h1 {
+    padding-left: 20%;
+  }
+  .card-foreground p {
+    padding-left: 20%;
+  }
+  .card-foreground .btn {
+    margin-left: 30%;
+    width: 30%;
+    height: 30px;
+    font-size: 13px;
+  }
+  .card-foreground a {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .comp img {
+    width: 100%;
+  }
+  .comp .shopc {
+    position: relative;
+    width: 80%;
+    padding-bottom: 50px;
+  }
+
+  .shoe .shoe2 {
+    position: relative;
+  }
+  .shoe {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 860px) {
+
+  .checkbtn {
+    display: block;
+  }
+  .nav .link ul {
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .link ul {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+  }
+
+  .limk img {
+    margin-top: 2px;
+  }
+
+  #menuList {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .alert-content {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 465px) {
+  .card-foreground .btn {
+    margin-left: 10%;
+    width: 40%;
+    height: 25px;
+    font-size: 10px;
+  }
+  .card-foreground a {
+    height: 20px;
+    font-size: 8px;
+  }
+  .cards {
+    display: block;
+  }
 }
