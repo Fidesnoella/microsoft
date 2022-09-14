@@ -114,8 +114,11 @@ body {
 
 .mai .box {
   margin: 30px;
+  align-items: center;
+  justify-content: center;
 }
-.ma-1 img {
+
+ .ma-1 img {
   padding-left: 40%;
 }
 .ma-2 img {
@@ -129,7 +132,7 @@ body {
 }
 .ma-5 img {
   padding-left: 30%;
-}
+} 
 
 .shop {
   padding-left: 48%;
@@ -137,6 +140,10 @@ body {
 }
 .shop img {
   padding-left: 30px;
+}
+
+.card-title {
+  font-weight: bold;
 }
 
 .md {
@@ -231,23 +238,21 @@ body {
   width: 280px;
   height: 40px;
 }
-/* #coco-card{
-    background-color: #fff !important;
-    
-} */
+
 /* footer */
 
 .cards {
   font-size: 15px;
-  display: flex;
-  
+  display: flex; 
   padding-left: 8rem;
+  
 }
 .cards .card1 {
   display: flex;
   flex-direction: column;
   font-size: 12px;
   font-weight: 100;
+  max-width: 25%;
 }
 .card1 h5 {
   margin-bottom: 10px;
@@ -322,6 +327,7 @@ footer {
   .card-foreground {
     position: relative;
     width: 80%;
+    margin-top: 5px;
   }
 
   .card-foreground h1 {
@@ -333,7 +339,7 @@ footer {
   .card-foreground .btn {
     margin-left: 30%;
     width: 30%;
-    height: 30px;
+    height: 40px;
     font-size: 13px;
   }
   .card-foreground a {
@@ -352,6 +358,7 @@ footer {
 
   .shoe .shoe2 {
     position: relative;
+    margin-left: 5%;
   }
   .shoe {
     flex-direction: column;
@@ -368,7 +375,7 @@ footer {
     position: absolute;
     background-color: #fff;
     top: 75px;
-    right: 0;
+    left: 0;
     z-index: 2;
   }
 
@@ -390,10 +397,55 @@ footer {
   .alert-content {
     font-size: 13px;
   }
+  .mai{
+    display: block;
+  }
+  .shop {
+    padding-left: 30px;
+  }
+  
+  .footer_row {
+    display: block;
+    justify-content: space-around;
+    font-size: 10px;
+    padding: 10px;
+  }
 
+  .footer_row .fw-1 {
+    padding-left: 0px;
+  }
+  .footer_row .fw-2 {
+    display: block;
+    padding-right: 0rem;
+  }
+  .footer_row .fw-2 a{
+    margin: 2px;
+  }
+  .cards{
+    width: 30%;
+    padding: 15px;
+  }
+  .ma-1 img {
+    padding-left: 10%;
+  }
+  .ma-2 img {
+    padding-left: 10%;
+  }
+  .ma-3 img {
+    padding-left: 10%;
+  }
+  .ma-4 img {
+    padding-left: 10%;
+  }
+  .ma-5 img {
+    padding-left: 10%;
+  } 
 }
 
 @media (max-width: 465px) {
+  .shoe2 button {
+    width: 200px;
+  }
   .card-foreground .btn {
     margin-left: 10%;
     width: 40%;
@@ -406,5 +458,23 @@ footer {
   }
   .cards {
     display: block;
+    padding: 0px;
+  }
+  .footer_row {
+    display: block;
+    justify-content: space-around;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .footer_row .fw-1 {
+    padding-left: 0px;
+  }
+  .footer_row .fw-2 {
+    display: block;
+    padding-right: 0rem;
+  }
+  .footer_row .fw-2 a{
+    margin: 2px;
   }
 }
